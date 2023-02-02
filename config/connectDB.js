@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-const url = 'mongodb+srv://ron1510:rao7o8RON@cluster0.cuf8cts.mongodb.net/nodejsFinalProject?retryWrites=true&w=majority'
+const url = 'database uri'
 
 const connectDB = () => {
     mongoose.connect(url)
